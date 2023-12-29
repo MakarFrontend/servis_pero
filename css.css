@@ -1,0 +1,62 @@
+:root {
+    --khaki: #F0E68C;
+    --fon: #474546;
+}
+.content {
+    background-color: var(--fon);
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+}
+.save {
+    float: right;
+    font-size: 16px;
+    font-family: arial;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    background-color: var(--khaki);
+    border-width: 0px;
+}
+.save:hover {
+    background-color: #BDB76B;
+    transition: all 0.3s ease-in 0.3s;
+} .save:active {
+    background-color: #fe3f00;
+    transition: all 0s ease-in 0s;
+}
+.zam {
+    background-color: var(--fon);
+    width: 60%;
+    border: 2px solid var(--khaki);
+    margin-left: 20%;
+    margin-bottom: 35px;
+    padding-bottom: 0%;
+}
+.zametka_zag {
+    display: inline;
+    font-family: Arial;
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    margin-left: 30%;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    border: 0px solid #fff;
+    width: 99%;
+    font-family: arial;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+img {
+    display: inline;
+    background-size: cover;
+    vertical-align: middle;
+    cursor: pointer;
+}
