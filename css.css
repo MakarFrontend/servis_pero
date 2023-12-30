@@ -2,6 +2,9 @@
     --khaki: #F0E68C;
     --fon: #474546;
 }
+body {
+    background-color: #474546;
+}
 .content {
     background-color: var(--fon);
     width: 100%;
